@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js">
+
+    </script>
+    <title>Travel Website </title>
+</head>
+<body>
+   
+    <!-- --Navigation--->
+
+    <nav>
+        <img src="images/logo.svg" alt="logo image">
+        <div class="navigation">
+         <ul>
+    <i id="menu-close" class="fa-regular fa-circle-xmark"></i>        
+    <li><a  href="#">Home</a></li>
+    <li><a  href="about.html">About</a></li>
+    <li><a class="active" href="blog.html">Blog</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="contact.html">Contact</a></li>
+         </ul>
+         <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- --Post Section-- -->
+
+    <section id="blog-container">
+        <div class="blogspost">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learning Web development in an easiest way</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque commodi cum dolorum, libero iure, nesciunt voluptates aspernatur dolore, deserunt recusandae totam placeat dolor sint! Facere possimus consequatur totam officiis similique quam, nulla error aperiam voluptate aliquid vero molestias non! Quas.</p>
+                <br><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate eveniet cumque possimus corrupti ipsa temporibus, reprehenderit sint, nesciunt, blanditiis magnam ipsam. Reprehenderit veritatis mollitia autem? Exercitationem vel fugiat, dolore animi totam tenetur quis dolorem soluta quo error nulla aliquid nobis culpa voluptatem aperiam, impedit facere inventore quidem consequuntur tempora nostrum possimus, quisquam excepturi? Architecto possimus ad nulla culpa cum dolores! Quaerat reprehenderit perferendis dolorum nihil necessitatibus voluptatem architecto, quibusdam dolores delectus neque odio soluta distinctio nesciunt culpa voluptate libero, placeat autem assumenda alias. Iure fuga, excepturi magni consequatur rem aspernatur repellat voluptatibus modi quasi hic ipsum facilis maiores, tempora cumque!</p>
+                <br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus alias veritatis quo voluptates, voluptatum vel laboriosam soluta atque iure hic. Quo asperiores quam, doloremque dolore, tempore, saepe maxime id doloribus sequi nam minus? Quia debitis quidem cumque sequi architecto illum dolor voluptas ducimus commodi itaque, placeat officiis asperiores libero id, labore temporibus! Quasi cumque quo odit iusto perspiciatis cum optio soluta accusantium sequi enim repudiandae, sit, ut repellat eaque fuga unde ad harum neque blanditiis omnis aliquid pariatur ea? Est minima, aliquam earum porro magnam hic, autem eveniet molestias quas animi ratione? Dolorum consectetur laboriosam, dicta assumenda molestiae aperiam corrupti voluptatibus quos delectus sapiente, saepe, omnis magni illo incidunt voluptatem nihil! Quae error a eius hic repudiandae placeat tempore numquam. Doloribus quidem dolores cupiditate blanditiis. Laborum maxime magnam rem aut.</p>
+                <a href="#">Read Next =></a>
+            </div>
+        </div>
+    </section>
+   
+    <!-- ---Footer--- -->
+
+    
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assests</li>
+            <li>Invester Relations</li>
+            <li>Term of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us.We only send promo offers.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address" name="" id="">
+                    <a href="#" class="yellow">Subscribe</a>
+                </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2021 All rights Reserved | This template is made by Naazir.</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+           </div>
+    </footer>
+    <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass("active")
+          });
+          $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass("active")
+          });
+    </script>
+</body>
+</html>
